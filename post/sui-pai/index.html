@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>随拍 | LinMian.github.io</title>
+<link rel="shortcut icon" href="https://LinMian2000.github.io/favicon.ico?v=1680874177687">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://LinMian2000.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="随拍 | LinMian.github.io - Atom Feed" href="https://LinMian2000.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="
+摄23/2/6原图，看完房子回家，第一次坐到这个类型的高铁，里面像公交车....
+
+调色后，
+其实更喜欢原图
+
+
+摄23/3/18，面试没发挥好，但三亚的天气很好....
+
+摄23/3/18，很日漫谁懂啊！📷
+
+..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://LinMian2000.github.io">
+  <img class="avatar" src="https://LinMian2000.github.io/images/avatar.png?v=1680874177687" alt="">
+  </a>
+  <h1 class="site-title">
+    LinMian.github.io
+  </h1>
+  <p class="site-description">
+    Welcome to my personal  homepage,Thank you for your attention!
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://LinMian2000.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://LinMian2000.github.io/archives" class="menu">
+          作品集
+        </a>
+      
+    
+      
+        <a href="https://LinMian2000.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/Linmian2000" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              随拍
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-04-07
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p><img src="https://LinMian2000.github.io/post-images/1680873047202.jpg" alt="" loading="lazy"><br>
+摄23/2/6原图，看完房子回家，第一次坐到这个类型的高铁，里面像公交车....<br>
+<img src="https://LinMian2000.github.io/post-images/1680873081576.jpg" alt="" loading="lazy"><br>
+调色后，<br>
+其实更喜欢原图</p>
+<!-- more -->
+<p><img src="https://LinMian2000.github.io/post-images/1680873227001.jpg" alt="" loading="lazy"><br>
+摄23/3/18，面试没发挥好，但三亚的天气很好....<br>
+<img src="https://LinMian2000.github.io/post-images/1680873841337.jpg" alt="" loading="lazy"><br>
+摄23/3/18，很日漫谁懂啊！📷</p>
+<!-- more -->
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Copyright©2022  LinMian.All Rights Reserved.
+  <a class="rss" href="https://LinMian2000.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

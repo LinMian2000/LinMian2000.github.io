@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://LinMian2000.github.io</id>
+    <title>LinMian.github.io</title>
+    <updated>2023-04-07T13:34:39.010Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://LinMian2000.github.io"/>
+    <link rel="self" href="https://LinMian2000.github.io/atom.xml"/>
+    <subtitle>Welcome to my personal  homepage,Thank you for your attention!</subtitle>
+    <logo>https://LinMian2000.github.io/images/avatar.png</logo>
+    <icon>https://LinMian2000.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, LinMian.github.io</rights>
+    <entry>
+        <title type="html"><![CDATA[随拍]]></title>
+        <id>https://LinMian2000.github.io/post/sui-pai/</id>
+        <link href="https://LinMian2000.github.io/post/sui-pai/">
+        </link>
+        <updated>2023-04-07T13:05:16.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="https://LinMian2000.github.io/post-images/1680873047202.jpg" alt="" loading="lazy"><br>
+摄23/2/6原图，看完房子回家，第一次坐到这个类型的高铁，里面像公交车....<br>
+<img src="https://LinMian2000.github.io/post-images/1680873081576.jpg" alt="" loading="lazy"><br>
+调色后，<br>
+其实更喜欢原图</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><img src="https://LinMian2000.github.io/post-images/1680873047202.jpg" alt="" loading="lazy"><br>
+摄23/2/6原图，看完房子回家，第一次坐到这个类型的高铁，里面像公交车....<br>
+<img src="https://LinMian2000.github.io/post-images/1680873081576.jpg" alt="" loading="lazy"><br>
+调色后，<br>
+其实更喜欢原图</p>
+<!-- more -->
+<p><img src="https://LinMian2000.github.io/post-images/1680873227001.jpg" alt="" loading="lazy"><br>
+摄23/3/18，面试没发挥好，但三亚的天气很好....<br>
+<img src="https://LinMian2000.github.io/post-images/1680873841337.jpg" alt="" loading="lazy"><br>
+摄23/3/18，很日漫谁懂啊！📷</p>
+<!-- more -->
+]]></content>
+    </entry>
+</feed>
